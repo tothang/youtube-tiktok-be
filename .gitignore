@@ -45,3 +45,4 @@ secrets.json
 
 .idea
 enviroment/*
+.yarn
