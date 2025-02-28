@@ -1,0 +1,31 @@
+{
+  "extends": "./tsconfig.package",
+  "include": [
+    "app/**/*",
+    "types"
+  ],
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020",  // Set the JavaScript language version
+    "lib": [
+      "ES2020"
+    ],  // Specify the library files to include
+    "module": "commonjs",  // Use CommonJS for modules
+    "rootDir": "./app",  // Set the root directory of the source files
+    "outDir": "./dist",  // Output directory for compiled files
+    "resolveJsonModule": true,  // Allow importing JSON files
+    "allowJs": true,  // Allow JavaScript files in the project
+    "esModuleInterop": true,  // Enable compatibility with CommonJS modules
+    "forceConsistentCasingInFileNames": true,  // Ensure consistent casing in file names
+    "skipLibCheck": true,  // Skip type checking for declaration files
+
+    /* Strict Type Checking */
+    "strict": true,  // Enable all strict type-checking options
+    "noImplicitAny": true  // Disallow 'any' type
+  },
+  "exclude": [
+    "node_modules",
+    "layers",
+    "dist"  // Exclude the output directory
+  ]
+}
