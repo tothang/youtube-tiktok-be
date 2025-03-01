@@ -4,6 +4,10 @@ This is an app to get videos from Tiktok and Youtube by keyword
 
 ## Run de project
 
+Creating Database postgres
+
+``docker-compose up -d``
+
 After install dependencies create a .env file and set up the proper variables(see .env-example)
 
 run below command to authen with aws
