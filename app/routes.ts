@@ -1,7 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import { handleError500 } from './middleware';
 import { searchYouTube,searchTikTok } from "services";
-import { apiAuthenticationMiddleware } from 'middleware/apiAuhtneticationMiddleware';
 
 const router = express.Router();
 
